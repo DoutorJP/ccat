@@ -1,8 +1,11 @@
-all: 
-	gcc -o ccat ccat.c
+ccat: ccat.o
+	gcc -o ccat ccat.o
+
+ccat.o:
+	gcc -c ccat.c
+
+clean: 
+	rm -fr ccat ccat.o
 
 install:
-	gcc -o ccat ccat.c
 	cp ccat /usr/bin
-
-clean: rm -fr ccat
