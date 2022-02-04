@@ -1,5 +1,5 @@
 ### CCAT - A better cat program
-GNU cat is bloated. so i writed my own cat in 18 lines.
+GNU cat is bloated. so i writed my own cat in 15 lines.
 
 ## install
 Its easy to install! Just run as root `make install`
